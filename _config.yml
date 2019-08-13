@@ -1,6 +1,6 @@
 title: wu-kan
-url: http://wu-kan.github.io
-baseurl: '' # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
+url: https://chairui405.github.io
+baseurl: 'cherryboom' # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/cherryboom/public`前也要加，即`/your_baseurl/cherryboom/public`。这一项结尾不要有'/'
 author: WuK
 
 permalink: /posts/:categories/:title # 博文目录
@@ -58,7 +58,7 @@ head: # 删改前确定知道自己在做什么
     value: RSS
   - key: type
     value: application/rss+xml
-- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
+- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/cherryboom/public里面
   var:
   - key: rel
     value: apple-touch-icon-precomposed
@@ -75,25 +75,25 @@ head: # 删改前确定知道自己在做什么
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/public/css/poole.css # 用cdn加速会出问题，暂时不知道为什么
+    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/cherryboom/public/css/poole.css # 用cdn加速会出问题，暂时不知道为什么
 - tag: link
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/poole/lanyon/public/css/syntax.css
+    value: //cdn.jsdelivr.net/gh/poole/lanyon/cherryboom/public/css/syntax.css
 - tag: link
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/public/css/lanyon.css
+    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/cherryboom/public/css/lanyon.css
 - tag: link
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: /public/css/wu-kan.css
+    value: /cherryboom/public/css/wu-kan.css
 - tag: link
   var:
   - key: rel
@@ -114,9 +114,9 @@ script: # 需要在正文后调用的脚本
 - src: //cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 - src: //cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
 - src: //cdn.jsdelivr.net/npm/prismjs/plugins/toolbar/prism-toolbar.min.js
-- src: /public/js/prism.js
-- src: /public/js/mermaid.js
-- src: /public/js/katex.js
+- src: /cherryboom/public/js/prism.js
+- src: /cherryboom/public/js/mermaid.js
+- src: /cherryboom/public/js/katex.js
 
 mermaid: # https://github.com/knsv/mermaid
   enable: true
@@ -124,7 +124,7 @@ mermaid: # https://github.com/knsv/mermaid
   stylesheet: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
   markdown_expand: true
 
-PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己定制，将定制的js和css替换我的/public/PrismJS下的对应文件即可。我这里只导入了三个自己喜欢的插件。
+PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己定制，将定制的js和css替换我的/cherryboom/public/PrismJS下的对应文件即可。我这里只导入了三个自己喜欢的插件。
   enable: true
   src:
     - stylesheet: //cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css
@@ -194,7 +194,7 @@ simple_jekyll_search:
   noResultsText: 没有搜索到文章 # 无搜索数据提示语
   limit: 10 # 返回最大文章数
   fuzzy: false # 是否模糊匹配
-  json: /public/simple-jekyll-search/search.json
+  json: /cherryboom/public/simple-jekyll-search/search.json
 
 jekyll_table_of_contents:
   enable: true
@@ -248,9 +248,9 @@ post:
     text: 如果我的博客帮助到你，可以请我喝一杯咖啡~
     img: # 万一真的有人打赏呢~
     - id: wechat
-      src: /public/image/wechatpay.jpg
+      src: /cherryboom/public/image/wechatpay.jpg
     - id: alipay
-      src: /public/image/alipay.jpg
+      src: /cherryboom/public/image/alipay.jpg
 
 valine:
   enable: true
