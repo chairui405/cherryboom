@@ -1,6 +1,6 @@
 title: wu-kan
 url: https://chairui405.github.io
-baseurl: 'cherryboom' # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/cherryboom/public`前也要加，即`/your_baseurl/cherryboom/public`。这一项结尾不要有'/'
+baseurl: 'cherryboom' # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/cherryboom/public`。这一项结尾不要有'/'
 author: WuK
 
 permalink: /posts/:categories/:title # 博文目录
@@ -58,36 +58,36 @@ head: # 删改前确定知道自己在做什么
     value: RSS
   - key: type
     value: application/rss+xml
-- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/cherryboom/public里面
+- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
   var:
   - key: rel
     value: apple-touch-icon-precomposed
   - key: href
-    value: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=144
+    value: //b-ssl.duitang.com/uploads/item/201808/26/20180826132317_fhctb.thumb.700_0.jpg?d=wavatar&s=144#//www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=144
 - tag: link # 小图标，同上
   var:
   - key: rel
     value: 'shortcut icon'
   - key: href
-    value: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=32
+    value: //b-ssl.duitang.com/uploads/item/201808/26/20180826132317_fhctb.thumb.700_0.jpg?d=wavatar&s=32
 - tag: link # 下面是博客的css，有些插件的css是单独在插件里引用的，假如需要自己的css可以仿照去加在后面。无脑cdn加速了。
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/cherryboom/public/css/poole.css # 用cdn加速会出问题，暂时不知道为什么
+    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/public/css/poole.css # 用cdn加速会出问题，暂时不知道为什么
 - tag: link
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/poole/lanyon/cherryboom/public/css/syntax.css
+    value: //cdn.jsdelivr.net/gh/poole/lanyon/public/css/syntax.css
 - tag: link
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/cherryboom/public/css/lanyon.css
+    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/public/css/lanyon.css
 - tag: link
   var:
   - key: rel
@@ -124,7 +124,7 @@ mermaid: # https://github.com/knsv/mermaid
   stylesheet: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
   markdown_expand: true
 
-PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己定制，将定制的js和css替换我的/cherryboom/public/PrismJS下的对应文件即可。我这里只导入了三个自己喜欢的插件。
+PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己定制，将定制的js和css替换我的/public/PrismJS下的对应文件即可。我这里只导入了三个自己喜欢的插件。
   enable: true
   src:
     - stylesheet: //cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css
@@ -152,8 +152,8 @@ katex: # KaTeX
 sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
-    img: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=600 # 头像的地址
-    info: <br>SYSU17级在读<br>计科超算方向<br>ACMer<br>田宫例四驱车<br>永远喜欢水野爱 # 头像背后的信息
+    img: //b-ssl.duitang.com/uploads/item/201808/26/20180826132317_fhctb.thumb.700_0.jpg?d=wavatar&s=600 # 头像的地址
+    info: <br>北京十牛科技有限公司<br>爱折腾<br>Coder<br>已婚<br>永远喜欢婷 # 头像背后的信息
   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"></iframe>'
   social:
   - title: rss # rss
@@ -214,7 +214,7 @@ busuanzi:
 
 run_time:
   enable: true
-  start-time: '10/04/2017 11:03:56' # 这是我第一篇CSDN博客的时间
+  start-time: '8/13/2019 21:40:56' # 博客开启的时间
   alert: 努力运行
   day: 天
   hour: 时
