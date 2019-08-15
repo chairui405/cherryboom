@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 今、情热が岚になって
+title: 我的生活和时下一般年青人的生活有很大的分别
 showtag:
 - ICPC模板
 ---
@@ -18,7 +18,7 @@ showtag:
 
 {% endfor %}
 
-- [更多…](/archive)
+- [更多…](/cherryboom/archive)
 
 {% for tag in page.showtag %}
 
